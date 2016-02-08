@@ -1,0 +1,58 @@
+.wait {
+  display: none;
+}
+
+body {
+  background: #000;
+  color: #c0c0c0; //silver
+  font-family: "Source Code Pro", Times, Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Enriqueta", Times, Arial;
+}
+
+h1 {
+  font-size: 33px;
+  span {
+    font-size: 23px;
+  }
+}
+
+
+
+.heading, .subheading, nav {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: right;
+}
+
+nav, .footer-links {
+  font-size: 18px;
+  //text-shadow: 1px 1px 2px #7CFC00;
+  text-shadow: #7CFC00;
+  ul {
+    li {
+      a {
+        color: #ff00ff;
+      }
+      &:hover {
+        text-shadow: 2px 2px #7CFC00;
+      }
+    }
+  }
+}
+
+.cursive {
+  font-family: "Homemade Apple", serif;
+  font-size: 20px;
+}
+
+#copyright {
+  color: #7CFC00;
+}

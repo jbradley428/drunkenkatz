@@ -1,6 +1,3 @@
-.header {
-  background-image: url("/images/katz-pattern.png"); }
-
 .column-4 {
   column-count: 4;
   -moz-column-count: 4;
@@ -49,51 +46,3 @@
 
 .wait {
   display: none; }
-
-.wait {
-  display: none; }
-
-body {
-  background: #000;
-  color: #c0c0c0;
-  font-family: "Source Code Pro", Times, Arial; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Enriqueta", Times, Arial; }
-
-h1 {
-  font-size: 33px; }
-  h1 span {
-    font-size: 23px; }
-
-.heading, .subheading, nav {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-align: right; }
-
-nav, .footer-links {
-  font-size: 18px;
-  text-shadow: #7CFC00; }
-  nav ul li a, .footer-links ul li a {
-    color: #ff00ff; }
-  nav ul li:hover, .footer-links ul li:hover {
-    text-shadow: 2px 2px #7CFC00; }
-
-.cursive {
-  font-family: "Homemade Apple", serif;
-  font-size: 20px; }
-
-#copyright {
-  color: #7CFC00; }
-
-section {
-  margin-top: 30px; }
-
-.nav > li > a:hover {
-  background-color: transparent;
-  color: #ff00ff; }
